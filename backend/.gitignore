@@ -1,0 +1,14 @@
+# Dependencies
+node_modules/
+
+# Production build
+dist/
+build/
+
+# Environment Variables (Passwords)
+.env
+.env.local
+
+# Logs and System files
+npm-debug.log*
+.DS_Store
