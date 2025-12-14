@@ -20,6 +20,11 @@ app.get('/', (req, res) => {
   res.send('API is running...');
 });
 
+// ... existing code ...
+
 app.listen(PORT, () => {
-  console.log(`Server running on port ${PORT}`);
+    console.log(`Server running on port ${PORT}`);
 });
+
+// ADD THIS LINE AT THE VERY END:
+module.exports = app;
