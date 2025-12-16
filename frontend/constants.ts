@@ -3,8 +3,8 @@
 import { Service, GalleryItem } from './types';
 
 export const COMPANY_NAME = "Smith Studio";
-export const COMPANY_PHONE = "+91 95138 09936";
-export const COMPANY_EMAIL = "shashankshendre@gmail.com";
+export const COMPANY_PHONE = "+91 9738332209";
+export const COMPANY_EMAIL = "---------";
 export const COMPANY_ADDRESS = "Ring rd, Nijalingappa layout, Davanagere, Karnataka 577004, India";
 export const COMPANY_INSTAGRAM = "https://www.instagram.com/smith__photography_?igsh=MWpiY3ZtMWY0czRkaQ==";
 
@@ -14,7 +14,7 @@ export const SERVICES: Service[] = [
     name: 'Wedding Photography',
     price: 150000,
     description: 'Full day coverage of your special day, capturing every emotional moment.',
-    image: 'https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&w=800&q=80',
+    image: 'imgs/Id-4/smith__photography_-20251216-0023.jpg',
     features: ['8 Hours Coverage', '2 Photographers', 'Online Gallery', 'High-Res Downloads']
   },
   {
@@ -22,7 +22,7 @@ export const SERVICES: Service[] = [
     name: 'Pre-Wedding Shoot',
     price: 40000,
     description: 'Romantic couples session at a location of your choice.',
-    image: 'https://images.unsplash.com/photo-1515934751635-c81c6bc9a2d8?auto=format&fit=crop&w=800&q=80',
+    image: 'imgs/Id-1/smith__photography_-20251216-0006.jpg',
     features: ['2 Hours Session', '2 Locations', '20 Retouched Photos', 'Outfit Changes']
   },
   {
@@ -30,7 +30,7 @@ export const SERVICES: Service[] = [
     name: 'Portrait Session',
     price: 15000,
     description: 'Professional headshots or creative portraits.',
-    image: 'imgs/2025-12-13 (1).png',
+    image: 'imgs/Id-0/varsha_k_putugnal-20251216-0002.jpg',
     features: ['1 Hour Session', 'Studio or Outdoor', '5 Retouched Photos', 'Quick Turnaround']
   },
   {
@@ -38,39 +38,99 @@ export const SERVICES: Service[] = [
     name: 'Event Videography',
     price: 90000,
     description: 'Cinematic highlight films for corporate events or parties.',
-    image: 'https://images.unsplash.com/photo-1535295972055-1c762f4483e5?auto=format&fit=crop&w=800&q=80',
+    image: 'imgs/Id-3/smith__photography_-20251216-0018.jpg',
     features: ['4K Video', 'Drone Footage', 'Highlight Reel', 'Raw Footage Option']
   }
 ];
 
 export const GALLERY_ITEMS: GalleryItem[] = [
-  { id: '1', title: 'Sunset Vows', category: 'Wedding', url: 'https://images.unsplash.com/photo-1606800052052-a08af7148866?auto=format&fit=crop&w=1200&q=80' },
-  { id: '2', title: 'Urban Portrait', category: 'Portrait', url: 'https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=1200&q=80' },
-  { id: '3', title: 'Forest Love', category: 'Pre-Wedding', url: 'https://images.unsplash.com/photo-1621623403673-9828dc365751?auto=format&fit=crop&w=1200&q=80' },
-  { id: '4', title: 'Studio Lights', category: 'Portrait', url: 'https://images.unsplash.com/photo-1531746020798-e6953c6e8e04?auto=format&fit=crop&w=1200&q=80' },
-  { id: '5', title: 'The First Dance', category: 'Wedding', url: 'https://images.unsplash.com/photo-1507038772120-7a5547543163?auto=format&fit=crop&w=1200&q=80' },
-  { id: '6', title: 'Golden Hour', category: 'Landscape', url: 'https://images.unsplash.com/photo-1472214103451-9374bd1c798e?auto=format&fit=crop&w=1200&q=80' },
-  { id: '7', title: 'Bridal Preparation', category: 'Wedding', url: 'https://images.unsplash.com/photo-1596451190630-186aff535bf2?auto=format&fit=crop&w=1200&q=80' },
-  { id: '8', title: 'Candid Laughter', category: 'Event', url: 'https://images.unsplash.com/photo-1511632765486-a01980e01a18?auto=format&fit=crop&w=1200&q=80' },
-  { id: '9', title: 'Drone View', category: 'Landscape', url: 'https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?auto=format&fit=crop&w=1200&q=80' },
+  {
+    id: '0',
+    type: 'set', // <--- New Type
+    category: '',
+    title: 'Varsha K Putugnal',
+    coverUrl: 'imgs/Id-0/varsha_k_putugnal-20251216-0001.jpg', // The image shown in main grid
+    // The array of images inside this set
+    images: [
+      { id: '0-1', url: 'imgs/Id-0/varsha_k_putugnal-20251216-0001.jpg', title: '' },
+      { id: '0-2', url: 'imgs/Id-0/varsha_k_putugnal-20251216-0002.jpg', title: '' },
+      { id: '0-3', url: 'imgs/Id-0/varsha_k_putugnal-20251216-0003.jpg', title: '' },
+      { id: '0-4', url: 'imgs/Id-0/varsha_k_putugnal-20251216-0004.jpg', title: '' },
+      { id: '0-5', url: 'imgs/Id-0/varsha_k_putugnal-20251216-0005.jpg', title: '' },
+      { id: '0-6', url: 'imgs/Id-0/varsha_k_putugnal-20251216-0006.jpg', title: '' },
+      { id: '0-7', url: 'imgs/Id-0/varsha_k_putugnal-20251216-0007.jpg', title: '' },
+      { id: '0-8', url: 'imgs/Id-0/varsha_k_putugnal-20251216-0008.jpg', title: '' },
+    ]
+  },
+    {
+    id: '1',
+    type: 'set',
+    category: '',
+    title: '',
+    coverUrl: 'imgs/Id-1/smith__photography_-20251216-0001.jpg', 
+    images: [
+      { id: '1-1', url: 'imgs/Id-1/smith__photography_-20251216-0001.jpg', title: '' },
+      { id: '1-2', url: 'imgs/Id-1/smith__photography_-20251216-0002.jpg', title: '' },
+      { id: '1-3', url: 'imgs/Id-1/smith__photography_-20251216-0003.jpg', title: '' },
+      { id: '1-4', url: 'imgs/Id-1/smith__photography_-20251216-0004.jpg', title: '' },
+      { id: '1-5', url: 'imgs/Id-1/smith__photography_-20251216-0005.jpg', title: '' },
+      { id: '1-6', url: 'imgs/Id-1/smith__photography_-20251216-0006.jpg', title: '' },
+      { id: '1-7', url: 'imgs/Id-1/smith__photography_-20251216-0007.jpg', title: '' },
+      { id: '1-8', url: 'imgs/Id-1/smith__photography_-20251216-0008.jpg', title: '' },
+    ]
+  },
+   {
+    id: '2',
+    type: 'set',
+    category: '',
+    title: '',
+    coverUrl: 'imgs/Id-2/smith__photography_-20251216-0009.jpg', 
+    images: [
+      { id: '2-1', url: 'imgs/Id-2/smith__photography_-20251216-0009.jpg', title: '' },
+      { id: '2-2', url: 'imgs/Id-2/smith__photography_-20251216-0010.jpg', title: '' },
+      { id: '2-3', url: 'imgs/Id-2/smith__photography_-20251216-0011.jpg', title: '' },
+      { id: '2-4', url: 'imgs/Id-2/smith__photography_-20251216-0012.jpg', title: '' },
+    ]
+  },
+     {
+    id: '3',
+    type: 'set',
+    category: '',
+    title: '',
+    coverUrl: 'imgs/Id-3/smith__photography_-20251216-0013.jpg', 
+    images: [
+      { id: '3-1', url: 'imgs/Id-3/smith__photography_-20251216-0013.jpg', title: '' },
+      { id: '3-2', url: 'imgs/Id-3/smith__photography_-20251216-0014.jpg', title: '' },
+      { id: '3-3', url: 'imgs/Id-3/smith__photography_-20251216-0015.jpg', title: '' },
+      { id: '3-4', url: 'imgs/Id-3/smith__photography_-20251216-0016.jpg', title: '' },
+      { id: '3-5', url: 'imgs/Id-3/smith__photography_-20251216-0017.jpg', title: '' },
+      { id: '3-6', url: 'imgs/Id-3/smith__photography_-20251216-0018.jpg', title: '' },
+      { id: '3-7', url: 'imgs/Id-3/smith__photography_-20251216-0019.jpg', title: '' },
+      { id: '3-8', url: 'imgs/Id-3/smith__photography_-20251216-0020.jpg', title: '' },
+      { id: '3-9', url: 'imgs/Id-3/smith__photography_-20251216-0021.jpg', title: '' },
+    ]
+  },
+      {
+    id: '4',
+    type: 'set',
+    category: '',
+    title: '',
+    coverUrl: 'imgs/Id-4/smith__photography_-20251216-0022.jpg', 
+    images: [
+      { id: '4-1', url: 'imgs/Id-4/smith__photography_-20251216-0023.jpg', title: '' },
+      { id: '4-2', url: 'imgs/Id-4/smith__photography_-20251216-0024.jpg', title: '' },
+      { id: '4-3', url: 'imgs/Id-4/smith__photography_-20251216-0025.jpg', title: '' },
+      { id: '4-4', url: 'imgs/Id-4/smith__photography_-20251216-0026.jpg', title: '' },
+      { id: '4-5', url: 'imgs/Id-4/smith__photography_-20251216-0027.jpg', title: '' },
+    ]
+  }
+  
 ];
 
 export const LATEST_WORKS: GalleryItem[] = [
-  { id: 'l1', title: 'Ethereal Bride', category: 'Wedding', url: 'https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&w=800&q=80' },
-  { id: 'l2', title: 'Fashion Week', category: 'Fashion', url: 'https://images.unsplash.com/photo-1483985988355-763728e1935b?auto=format&fit=crop&w=800&q=80' },
-  { id: 'l3', title: 'Studio Session', category: 'Portrait', url: 'https://images.unsplash.com/photo-1575936123452-b67c3203c357?auto=format&fit=crop&w=800&q=80' },
-  { id: 'l4', title: 'Mountain Elopement', category: 'Pre-Wedding', url: 'https://images.unsplash.com/photo-1515934751635-c81c6bc9a2d8?auto=format&fit=crop&w=800&q=80' },
-  { id: 'l5', title: 'Neon Nights', category: 'Urban', url: 'https://images.unsplash.com/photo-1539109136881-3be0616acf4b?auto=format&fit=crop&w=800&q=80' },
-  { id: 'l6', title: 'Vintage Soul', category: 'Portrait', url: 'https://images.unsplash.com/photo-1526510747491-58f928ec870f?auto=format&fit=crop&w=800&q=80' },
-  { id: 'l7', title: 'Industrial Chic', category: 'Architecture', url: 'https://images.unsplash.com/photo-1518780664697-55e3ad937233?auto=format&fit=crop&w=800&q=80' },
-  { id: 'l8', title: 'Wildflowers', category: 'Nature', url: 'https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?auto=format&fit=crop&w=800&q=80' },
-  { id: 'l9', title: 'City Motion', category: 'Urban', url: 'https://images.unsplash.com/photo-1496345875659-11f7dd282d1d?auto=format&fit=crop&w=800&q=80' },
-  { id: 'l10', title: 'Morning Coffee', category: 'Lifestyle', url: 'https://images.unsplash.com/photo-1511988617509-a57c8a288659?auto=format&fit=crop&w=800&q=80' },
-  { id: 'l11', title: 'Abstract Light', category: 'Art', url: 'https://images.unsplash.com/photo-1493863641943-9b68992a8d07?auto=format&fit=crop&w=800&q=80' },
-  { id: 'l12', title: 'The Gaze', category: 'Portrait', url: 'https://images.unsplash.com/photo-1531123897727-8f129e1688ce?auto=format&fit=crop&w=800&q=80' },
-  { id: 'l13', title: 'Hidden Details', category: 'Macro', url: 'https://images.unsplash.com/photo-1550684848-fac1c5b4e853?auto=format&fit=crop&w=800&q=80' },
-  { id: 'l14', title: 'Monochrome Street', category: 'Street', url: 'https://images.unsplash.com/photo-1478131333081-3091e1c0e6a7?auto=format&fit=crop&w=800&q=80' },
-  { id: 'l15', title: 'Luxury Timepiece', category: 'Product', url: 'https://images.unsplash.com/photo-1523170335258-f5ed11844a49?auto=format&fit=crop&w=800&q=80' },
-  { id: 'l16', title: 'Coastal Aerial', category: 'Drone', url: 'https://images.unsplash.com/photo-1506477331477-33d5d8b3dc85?auto=format&fit=crop&w=800&q=80' },
-  { id: 'l17', title: 'In Motion', category: 'Sports', url: 'https://images.unsplash.com/photo-1517649763962-0c623066013b?auto=format&fit=crop&w=800&q=80' }
+  { id: 'l1', title: 'Ethereal Bride', category: '', url: 'imgs/Id-0/varsha_k_putugnal-20251216-0001.jpg' },
+  { id: 'l2', title: 'Fashion Week', category: '', url: 'imgs/Id-1/smith__photography_-20251216-0001.jpg' },
+  { id: 'l3', title: 'Studio Session', category: '', url: 'imgs/Id-2/smith__photography_-20251216-0009.jpg' },
+  { id: 'l4', title: 'Mountain Elopement', category: '', url: 'imgs/Id-3/smith__photography_-20251216-0013.jpg' },
+  { id: 'l5', title: 'Neon Nights', category: '', url: 'imgs/Id-4/smith__photography_-20251216-0022.jpg' },
 ];

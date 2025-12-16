@@ -1,6 +1,6 @@
 `FOR FRONTEND`
 1. `cd frontend` 
-2. Install dependencies: `npm install`,`npm i`,
+2. Install dependencies: `npm install`,`npm i`,`npm install react-social-media-embed`
 3. Run the app:`npm run dev`
 4. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
 
