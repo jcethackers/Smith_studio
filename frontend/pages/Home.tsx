@@ -6,16 +6,10 @@ import { SERVICES, LATEST_WORKS } from '../constants';
 import { ServiceCard } from '../components/ServiceCard';
 
 const HERO_IMAGES = [
-  "https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&q=80&w=1920", // Wedding Party
-  "https://images.unsplash.com/photo-1516035069371-29a1b244cc32?auto=format&fit=crop&q=80&w=1920", // Camera Lens
-  "https://images.unsplash.com/photo-1533105079780-92b9be482077?auto=format&fit=crop&q=80&w=1920", // Studio Light
-  "https://images.unsplash.com/photo-1606103836293-0a063ee20566?auto=format&fit=crop&q=80&w=1920", // Artistic Portrait
-  "https://images.unsplash.com/photo-1511285560982-1351c4f809b9?auto=format&fit=crop&q=80&w=1920", // Black & White Wedding
-  "https://images.unsplash.com/photo-1492691527719-9d1e07e534b4?auto=format&fit=crop&q=80&w=1920", // Landscape Photographer
-  "https://images.unsplash.com/photo-1520854221250-8c9f96e927bf?auto=format&fit=crop&q=80&w=1920", // Fashion/Editorial
-  "https://images.unsplash.com/photo-1471341971474-273d381145b9?auto=format&fit=crop&q=80&w=1920", // Couple Sunset
-  "https://images.unsplash.com/photo-1554048612-387768052bf7?auto=format&fit=crop&q=80&w=1920", // Editing/Post-prod
-  "https://images.unsplash.com/photo-1506477331477-33d5d8b3dc85?auto=format&fit=crop&q=80&w=1920"  // Drone/Aerial
+  // Editing/Post-prod
+  "\background_imgs\H0001.jpg",  // Drone/Aerial
+  "\background_imgs\H0002.jpg",
+  "\background_imgs\H0003.jpg" 
 ];
 
 export const Home: React.FC = () => {
