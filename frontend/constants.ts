@@ -49,17 +49,17 @@ export const GALLERY_ITEMS: GalleryItem[] = [
     type: 'set', // <--- New Type
     category: '',
     title: 'Varsha K Putugnal',
-    coverUrl: 'imgs/Id-0/varsha_k_putugnal-20251216-0001.jpg', // The image shown in main grid
+    coverUrl: '/imgs/Id-0/varsha_k_putugnal-20251216-0001.jpg', // The image shown in main grid
     // The array of images inside this set
     images: [
-      { id: '0-1', url: 'imgs/Id-0/varsha_k_putugnal-20251216-0001.jpg', title: '' },
-      { id: '0-2', url: 'imgs/Id-0/varsha_k_putugnal-20251216-0002.jpg', title: '' },
-      { id: '0-3', url: 'imgs/Id-0/varsha_k_putugnal-20251216-0003.jpg', title: '' },
-      { id: '0-4', url: 'imgs/Id-0/varsha_k_putugnal-20251216-0004.jpg', title: '' },
-      { id: '0-5', url: 'imgs/Id-0/varsha_k_putugnal-20251216-0005.jpg', title: '' },
-      { id: '0-6', url: 'imgs/Id-0/varsha_k_putugnal-20251216-0006.jpg', title: '' },
-      { id: '0-7', url: 'imgs/Id-0/varsha_k_putugnal-20251216-0007.jpg', title: '' },
-      { id: '0-8', url: 'imgs/Id-0/varsha_k_putugnal-20251216-0008.jpg', title: '' },
+      { id: '0-1', url: '/imgs/Id-0/varsha_k_putugnal-20251216-0001.jpg', title: '' },
+      { id: '0-2', url: '/imgs/Id-0/varsha_k_putugnal-20251216-0002.jpg', title: '' },
+      { id: '0-3', url: '/imgs/Id-0/varsha_k_putugnal-20251216-0003.jpg', title: '' },
+      { id: '0-4', url: '/imgs/Id-0/varsha_k_putugnal-20251216-0004.jpg', title: '' },
+      { id: '0-5', url: '/imgs/Id-0/varsha_k_putugnal-20251216-0005.jpg', title: '' },
+      { id: '0-6', url: '/imgs/Id-0/varsha_k_putugnal-20251216-0006.jpg', title: '' },
+      { id: '0-7', url: '/imgs/Id-0/varsha_k_putugnal-20251216-0007.jpg', title: '' },
+      { id: '0-8', url: '/imgs/Id-0/varsha_k_putugnal-20251216-0008.jpg', title: '' },
     ]
   },
     {
