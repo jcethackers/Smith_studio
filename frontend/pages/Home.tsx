@@ -7,9 +7,12 @@ import { ServiceCard } from '../components/ServiceCard';
 
 const HERO_IMAGES = [
   // Editing/Post-prod
-  "\background_imgs\H0001.jpg",  // Drone/Aerial
-  "\background_imgs\H0002.jpg",
-  "\background_imgs\H0003.jpg"
+  "/background_imgs/H0001.jpg",  // Drone/Aerial
+  "/background_imgs/H0002.jpg",
+  "/background_imgs/H0003.jpg",
+  "/background_imgs/H0004.jpg",
+  "/background_imgs/H0005.jpg",
+  "/background_imgs/H0006.jpg"
 ];
 
 export const Home: React.FC = () => {

@@ -40,7 +40,8 @@ export const SERVICES: Service[] = [
     description: 'Cinematic highlight films for corporate events or parties.',
     image: 'imgs/Id-3/smith__photography_-20251216-0018.jpg',
     features: ['4K Video', 'Drone Footage', 'Highlight Reel', 'Raw Footage Option']
-  }
+  },
+  
 ];
 
 export const GALLERY_ITEMS: GalleryItem[] = [
@@ -123,14 +124,31 @@ export const GALLERY_ITEMS: GalleryItem[] = [
       { id: '4-4', url: 'imgs/Id-4/smith__photography_-20251216-0026.jpg', title: '' },
       { id: '4-5', url: 'imgs/Id-4/smith__photography_-20251216-0027.jpg', title: '' },
     ]
+  },
+    {
+    id: '5',
+    type: 'set',
+    category: '',
+    title: '',
+    coverUrl: 'imgs/Id-5/makeoverby_nirikshagowda-20251217-0001.jpg', 
+    images: [
+      { id: '5-1', url: 'imgs/Id-5/makeoverby_nirikshagowda-20251217-0001.jpg', title: '' },
+      { id: '5-2', url: 'imgs/Id-5/makeoverby_nirikshagowda-20251217-0002.jpg', title: '' },
+      { id: '5-3', url: 'imgs/Id-5/makeoverby_nirikshagowda-20251217-0003.jpg', title: '' },
+      { id: '5-4', url: 'imgs/Id-5/makeoverby_nirikshagowda-20251217-0004.jpg', title: '' },
+      { id: '5-5', url: 'imgs/Id-5/makeoverby_nirikshagowda-20251217-0005.jpg', title: '' },
+    ]
   }
   
 ];
 
 export const LATEST_WORKS: GalleryItem[] = [
-  { id: 'l1', title: 'Ethereal Bride', category: '', url: 'imgs/Id-0/varsha_k_putugnal-20251216-0001.jpg' },
-  { id: 'l2', title: 'Fashion Week', category: '', url: 'imgs/Id-1/smith__photography_-20251216-0001.jpg' },
-  { id: 'l3', title: 'Studio Session', category: '', url: 'imgs/Id-2/smith__photography_-20251216-0009.jpg' },
-  { id: 'l4', title: 'Mountain Elopement', category: '', url: 'imgs/Id-3/smith__photography_-20251216-0013.jpg' },
-  { id: 'l5', title: 'Neon Nights', category: '', url: 'imgs/Id-4/smith__photography_-20251216-0022.jpg' },
+  { id: 'l1', title: '', category: '', url: 'imgs/Id-0/varsha_k_putugnal-20251216-0001.jpg' },
+  { id: 'l2', title: '', category: '', url: 'imgs/Id-1/smith__photography_-20251216-0008.jpg' },
+  { id: 'l3', title: '', category: '', url: 'imgs/Id-1/smith__photography_-20251216-0007.jpg' },
+  { id: 'l4', title: '', category: '', url: 'imgs/Id-2/smith__photography_-20251216-0009.jpg' },
+  { id: 'l5', title: '', category: '', url: 'imgs/Id-3/smith__photography_-20251216-0013.jpg' },
+  { id: 'l6', title: '', category: '', url: 'imgs/Id-4/smith__photography_-20251216-0022.jpg' },
+  { id: 'l7', title: '', category: '', url: 'imgs/Id-4/smith__photography_-20251216-0023.jpg' },
+  { id: 'l8', title: '', category: '', url: 'imgs/Id-5/makeoverby_nirikshagowda-20251217-0001.jpg' },
 ];
