@@ -26,5 +26,8 @@ app.listen(PORT, () => {
     console.log(`Server running on port ${PORT}`);
 });
 
+app.listen(PORT, () => {
+    console.log(`port is perfect running on port ${PORT}`);
+});
 // ADD THIS LINE AT THE VERY END:
 module.exports = app;
